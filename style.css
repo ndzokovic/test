@@ -1,0 +1,130 @@
+
+
+body {
+  font: 0.8em/1.5em 'Muli', Verdana, "Trebuchet MS", "Lucida Grande", Arial, sans-serif;
+  width: 100%;
+}
+
+header div,
+article {
+  width: 760px;
+  margin: 0 auto;
+}
+
+header div {
+  position: relative;
+}
+
+/* Header */
+
+header {
+  background-color: #29363f;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3d515d), to(#29363f));
+  background-image: -webkit-linear-gradient(top, #3d515d, #29363f);
+  background-image:    -moz-linear-gradient(top, #3d515d, #29363f);
+  background-image:     -ms-linear-gradient(top, #3d515d, #29363f);
+  background-image:      -o-linear-gradient(top, #3d515d, #29363f);
+  height: 5em;
+  border-bottom: 0.4em solid #536d80;
+  text-shadow: 0 -1px 1px #333;
+}
+
+hgroup {
+  padding-top: 0.5em;
+}
+
+hgroup h1 {
+  font: 2.5em 'Andada', Georgia, Sans-Serif, Verdana;
+  line-height: 1em;
+}
+
+hgroup h1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+hgroup h2 {
+  color: #cdcdcd;
+  letter-spacing: 0.2em;
+  line-height: 1em;
+}
+
+/* Nav */
+
+nav {
+  position: absolute;
+  top: 1.6em;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  border-right: 1px solid #536d80;
+  margin: 0.5em 0;
+  padding: 0 0.3em;
+  font-size: 1.2em;
+}
+
+nav li a {
+  color: #dedede;
+  text-decoration: none;    
+}
+
+nav li a:hover {
+  color: #fff;
+  text-decoration: underline;   
+}
+
+nav li.last {
+  border: none;   
+}
+
+/* article */
+
+article {
+  padding: 1em 0;
+}
+
+article h3 {
+  color: #27343c;
+  font: 1.8em 'Andada', Georgia, Sans-Serif, Verdana;
+  margin: 1em 0 0.6em 0;
+}
+
+article p {
+  margin: 0.8em 0;
+  text-align: justify;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  border-top: 1px solid #cdcdcd;
+  color: #555;
+  padding: 0.3em;
+  font-size: 0.9em;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ededed), to(#fff));
+  background-image: -webkit-linear-gradient(top, #ededed, #fff);
+  background-image:    -moz-linear-gradient(top, #ededed, #fff);
+  background-image:     -ms-linear-gradient(top, #ededed, #fff);
+  background-image:      -o-linear-gradient(top, #ededed, #fff);
+  line-height: 1.5em;
+  vertical-align: middle;
+}
+
+footer a {
+  color: #888;
+}
+
+footer a:hover {
+  color: #999;
+}
+
+#design-by {
+  font: 1.4em 'Andada', Georgia, Sans-Serif, Verdana;
+  text-decoration: none;
+  color: #444;
+  letter-spacing: -.1em;
+}
+
